@@ -1,0 +1,16 @@
+$heightWith: 200px;
+
+.right-side-main {
+  width: $heightWith;
+  min-height: 3*$heightWith;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid;
+  padding: 10px;
+  top: 0;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  z-index: 999999999999999;
+}
